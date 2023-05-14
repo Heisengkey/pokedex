@@ -1,0 +1,5 @@
+<div>Todos los pokemons!!</div>
+
+<div *ngFor="let pokemon in pokemons | async">
+    <h3>{{pokemon.name}}</h3>
+</div>
